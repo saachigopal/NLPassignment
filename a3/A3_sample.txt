@@ -1,0 +1,138 @@
+# META-COMMENT: THIS FILE IS THE OUTPUT OF OUR RUNNING a3checks.py WITH OUR SOLUTION CODE
+
+Trying out creating a short sample
+Label: short
+Length: 30
+First 10 (or at most 10) tokens:['here', 'is', 'a', 'small', 'piece', 'of', 'text', 'a', 'small', 'piece']
+First 10 (or at most 10) most frequent word-types: count and percentage:
+	a: 4 (13.33%)
+	of: 4 (13.33%)
+	text: 4 (13.33%)
+	small: 4 (13.33%)
+	piece: 4 (13.33%)
+	is: 2 (6.67%)
+	here: 2 (6.67%)
+	in: 1 (3.33%)
+	morning: 1 (3.33%)
+	oclock: 1 (3.33%)
+First <=10 items in entry in bigram dictionary for most frequent word-type, a: ['small', 'small', 'small', 'small']
+<=10 random entries in trigram dictionary:
+	key: of text
+	value: ['a', 'a', 'here', 'at']
+	key: text at
+	value: ['nine']
+	key: is a
+	value: ['small', 'small']
+	key: in the
+	value: ['morning']
+	key: text a
+	value: ['small', 'small']
+	key: in the
+	value: ['morning']
+	key: a small
+	value: ['piece', 'piece', 'piece', 'piece']
+	key: text a
+	value: ['small', 'small']
+	key: text at
+	value: ['nine']
+
+Combining Obama SOTU and then Bush SOTU
+Label: Obama SOTU 2013-2016
+Length: 26533
+First 10 (or at most 10) tokens:['please', 'everybody', 'have', 'a', 'seat', 'mr', 'speaker', 'mr', 'vice', 'president']
+First 10 (or at most 10) most frequent word-types: count and percentage:
+	the: 1126 (4.24%)
+	and: 943 (3.55%)
+	to: 941 (3.55%)
+	of: 626 (2.36%)
+	a: 546 (2.06%)
+	we: 507 (1.91%)
+	our: 474 (1.79%)
+	that: 473 (1.78%)
+	in: 432 (1.63%)
+	for: 255 (0.96%)
+First <=10 items in entry in bigram dictionary for most frequent word-type, the: ['constitution', 'state', 'union', 'task', 'grit', 'american', 'rubble', 'state', 'true', 'basic']
+<=10 random entries in trigram dictionary:
+	key: to limiting
+	value: ['their']
+	key: the personalized
+	value: ['information']
+	key: alone as
+	value: ['commander']
+	key: are tired
+	value: ['of']
+	key: money than
+	value: ['others']
+	key: teen pregnancies
+	value: ['and']
+	key: patrolling the
+	value: ['valleys']
+	key: in making
+	value: ['sure']
+	key: to good
+	value: ['jobs']
+
+
+......
+
+Label: Bush SOTU 2005-2008
+Length: 21588
+First 10 (or at most 10) tokens:['mr', 'speaker', 'vice', 'president', 'cheney', 'members', 'of', 'congress', 'fellow', 'citizens']
+First 10 (or at most 10) most frequent word-types: count and percentage:
+	the: 1139 (5.28%)
+	and: 1014 (4.7%)
+	to: 749 (3.47%)
+	of: 672 (3.11%)
+	in: 502 (2.33%)
+	a: 408 (1.89%)
+	we: 385 (1.78%)
+	our: 380 (1.76%)
+	that: 279 (1.29%)
+	is: 273 (1.26%)
+First <=10 items in entry in bigram dictionary for most frequent word-type, the: ['elected', 'votes', 'people', 'palestinian', 'steps', 'commitment', 'guiding', 'world', 'world', 'state']
+<=10 random entries in trigram dictionary:
+	key: of violence
+	value: ['and', 'could']
+	key: own in
+	value: ['the']
+	key: would delay
+	value: ['it']
+	key: at strengthening
+	value: ['these']
+	key: work is
+	value: ['being']
+	key: korea to
+	value: ['abandon']
+	key: new political
+	value: ['situation']
+	key: march to
+	value: ['a']
+	key: the wisdom
+	value: ['to', 'of']
+
+****Analyzing differences between Obama SOTU 2013-2016 and Bush SOTU 2005-2008****
+Only said by Obama  (and at least 10 times): ['folks', 'wage', 'cant', 'workforce', 'manufacturing', 'crisis', 'everybody', 'applause', 'minimum', 'planet', 'race', 'fact', 'doesnt']
+Only said by Bush:  (and at least 10 times): ['palestinian', 'victory', 'given', 'struggle', 'iraqi', 'iraqis', 'empower', 'enemy']
+Ten most Obama-leaning joint words: [['lets', 3.921], ['thats', 3.801], ['kids', 2.929], ['class', 2.838], ['republicans', 2.502], ['place', 2.502], ['worked', 2.433], ['student', 2.433], ['wont', 2.359], ['dont', 2.359]]
+Ten most Bush-leaning joint words: [['terror', -2.947], ['personal', -2.509], ['offensive', -2.286], ['liberty', -3.251], ['institutions', -2.403], ['honor', -2.914], ['grateful', -2.403], ['extremists', -2.845], ['elections', -2.403], ['duty', -2.691]]
+Trying out trigram generation for short sample
+piece of text at nine oclock in the morning
+
+Bigram and trigram generation according to Obama SOTU 2013-2016
+average family to be dropped or on record now this year our time for us into costly wars and skills and daughters and smallbusiness owners plan that can understand that chance to contribute to give them every responsible americans we are coming months later we have come after school is over the dignity even as everybody have to a guess but ill be able to generate even when i believe it respects us are changing climate is lower rate and the world i appointed chaired by raising tax loopholes that i intend to her some tips laughter i mean we start making even when our young and stamp out that politicians can continue to weaken unions and make them laughter so that student loans and part of the education and turned out that no matter where businesses need to hire a wage you dont mind 40 years into the jobs overseas were clear if misfortune strikes you doubt a sikh temple in fact the lesson of lincoln or fiscal showdowns we were glad youre doing i actually agreed to american people of the overwhelming majorities of millions of our dreams thats a worldclass care—including the great nation on when we will continue to companies to work building fueling stations that michelle and competitiveness—this is their fair deal we shouldnt lose everything but new tax reform means helping to college onto the new precision medicine one ive come the lead and our wounded warriors supporting those devastated by example of these united states of our lives a bomb and prosperity by my first 15 years ago is best products overseas were still matter of america fields from a space program and leading international system we dont need a safer planet well citizenship the way they all what difference between the vulnerable
+
+time to get those bills to my desk put more people to the top with the best scientists in the american people almost the entire scientific community and 200 nations around the world tonight we need to work and this son of a hightech economy and we will support you if you disagree with parts of it i hope youll at least work with me to the middle east we are going to help america lead the world applause all right no nation attacks us directly or our allies strengthen our cyber defenses by increasing information sharing and developing standards to protect the technologies that have nothing to do let me repeat nothing im proposing go even further well reduce taxpayer subsidies to prescription drug companies and ask if we think the cynics are wrong i still think the people who see our differences as a citizen inspired by those voices of unarmed truth and unconditional love and theyre out there and its sure not the pace of this nation—regardless of race or region or party young or old rich or poor—is the simple profound belief in opportunity for all the people i still believe that together we have cleared away the rubble of crisis has passed and the international community to usher in the soldier who gives him that second chance the protester determined to prove that justice matters and we need to find a job i will be better for it that belief has suffered some serious blows over more than 11 million new jobs to our success should depend not on accident of birth or circumstance should decide our destiny and thats the example of a factory worker is ceo of siemens america—a company that brought hundreds of new technology like drones is properly constrained its why
+
+
+Bigram and trigram generation according to Bush SOTU 2005-2008
+holy land where matters of this session and to learn if these deeds reflect the values that spirit and that holds the rise and as misguided idealism in the syrian accountability act the spending on confronting enemies and eventually permitting all these ideas are fighting in the assassins hand weve seen the past 7 years will continue to have imagined just one of duty to defend us tonight i will help us wishes this good will choose to lead in dignity and in human life better options we rose to save and to help the coming up in such as we did not sit back or finish well no excuse left behind to increase the institutions a prompt upordown vote unfortunately neither goal is critical protections to fight to announce an active force for those of the special advisory council on election year afterward will work with peru and the evil men and anxious to move and in every life we are not legislate from local forces are fighting to stop your own this country is a state housing we must keep america and south korea were working to eliminate this agreement that our union is a plot to this rostrum in 2005 the budget will defeat their own in the rule of americas inner cities better information technology we can balance their future for millions of debate the holy land where it can go forward with the valor of their own future we need is whether america is our government and leaving iraq the compassion we enter the united in shia elements some old resentments free peoples money to move ahead you and establish a credit to al qaida operatives for decades ago i believe in a young girl sold baby boom retirements on iraqi people who have proven
+
+government should open paths of peaceful opposition that will keep up the bill that arrives on my proposal to fund special training for defense counsel in capital cases because people on trial for their own so were increasing worksite enforcement deploying fences and advanced technologies to stop slipping earmarks into committee reports that never even come to an end the iranian regime that it must be guided by our own convictions and to help the palestinian territories ukraine and a beacon of hope for lifting lives and everyone in this war is more than 4 years americans have seen how pell grants for kids we have disagreed we have a constitutional amendment to protect us we can balance the federal budget and that is not a hero he says we got guys and girls overseas dying for us unless we take pressure off the border and by taking these steps we can do so they have a better way when theyre given a chance to serve the same commitment together we showed the world often taking great risks on my orders we have is the opposite they preach with threats instruct with bullets and bombs and promise and dignity our military families represented here this evening by sergeant norwoods mom and dad janet and bill norwood at this hour it is written in courage like americans before us we can help these displaced workers learn new skills and find new jobs more than a single obgyn i ask congress to double the federal housing administration and allow state housing agencies to issue taxfree bonds to help them build lives of our country is the greatest ally in this struggle because were not the first steps of this body and that will defeat the dangers of a new generation i call
+
+
+Bigram and trigram generation according to CS1110 2014sp P1
+id1 be but has the number 7 and appends to is a call separatex 10 y refers to three lines of titem2s from the all times whether in this exam with gpa contribution see this examination 1 2 points when asked to otherwise give or name first name netid on this function avg is present and carefully reread all times its specification note that x remains the first occurrence of a transcript2titem2 engl9999 2 176 output 98 pre numsasstr is a copy of numbers is executed import transcript2 has 7 questions worth a 1item list highlist lowlist the list containing id2 y is a titem2 with students were assigned to look at the pages if s contains fewer than or receive unauthorized help we also ask that separate from lab time wisely use of the first page of a copy of code after so that we define the following code on it for item in one occurrence of a transcript2titem2 is666 2 b transcript2titem2 engl9999 2 circle your answer in anything that starts after the list lowlist the academic integrity code after the list highlist the list that z is implemented correctly defined in s where the wrong value of 53 points assume that z is present and are their specifications def afters c is that x is missing you write your own to be 2 b high low high0name fake print nextlist0name write your name and cornell university at least n 6 5 5 points when asked to do this 90minute exam 2 12 points implement redact and has the result of s after executing the titem2s have been imported we define the back of this i shall not correct because numsasstrsplit is a onecharacter string s that y is a total of credits times its specification note that
+
+previous question is correctly defined in module prelim1 now suppose the following sequence of numbers separated by whitespace return avgnumsasstrsplit unfortunately even if function avg is implemented correctly stringavg is not expecting as input rewrite the last line of code suffices did you write your last name first name and cornell netid at the bottom of this page make sure you see this line and indent relative to it for item in sourcelist illustrative example let id1 be the id of a list of strings which avg is implemented correctly stringavg is not expecting as input rewrite the last line of code suffices did you write your name netid on each page circle your lab time on the top of the academic integrity code to look at any exam other than your own to look at any exam other than your own to look at any other reference material or to otherwise give or receive unauthorized aid in this examination 1 2 points when allowed to begin write your name netid on each page circle your lab time on the front and carefully reread all instructions and specifications
+
+
